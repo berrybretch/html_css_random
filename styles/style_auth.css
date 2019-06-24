@@ -1,0 +1,206 @@
+body{
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: #f3e5f5;
+    margin: 0;
+    padding:0;
+    -webkit-font-smoothing:antialiased;
+}
+
+.sign_in_button a{
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 65px;
+    }
+.sign_up_button a{
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 65px;
+    }
+#sign_up_page .login_form{
+    margin: auto;
+    width: 570px;
+    height: 840px;
+    border-style:solid;
+    border-color: #bbb5c3;
+    border-width:1px;
+    border-radius: 3px;
+    box-shadow: 3px 4px 24px 0px #9ea7aa;
+    background-color: white;
+    }
+#sign_in_page .login_form{
+    margin: auto;
+    width: 570px;
+    height: 675px;
+    border-style:solid;
+    border-color: #bbb5c3;
+    border-width:1px;
+    border-radius: 3px;
+    box-shadow: 3px 4px 24px 0px #9ea7aa;
+    background-color: white;
+}
+.top_container{
+    width: 100%;
+    height:65px;
+    background-color: white;
+}
+#sign_in_page .sign_in_button{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 49.8%;
+    height:100%;
+    background-color: #ede7f6;
+    border-bottom: 1px solid #bbb5c3;
+    border-right: 1px solid #bbb5c3;
+    opacity: 0.7;
+}
+#sign_in_page .sign_up_button{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 49.8%;
+    height:100%;
+    background-color: white;
+    border-style: none;
+}
+#sign_up_page .sign_in_button{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 49.8%;
+    height:100%;
+    background-color: white;
+    border-style: none;
+}
+#sign_up_page .sign_up_button{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 49.8%;
+    height:100%;
+    background-color: #ede7f6;
+    border-bottom: 1px solid #bbb5c3;
+    border-left: 1px solid #bbb5c3;
+    opacity: 0.7;
+}
+#sign_up_page .sign_up_button:hover{
+    box-shadow: 3px 1px 24px 1px #9ea7aa;
+    border-style: none;
+    border-radius: 2px;
+}
+#sign_in_page .sign_in_button:hover{
+    box-shadow: 3px 1px 24px 1px #9ea7aa;
+    border-style: none;
+    border-radius: 2px;
+}
+/*signin_signup above yote*/
+.details_section{
+    margin: auto;
+    width: 90%;
+
+    border-style: none;
+    background-color: white;
+}
+.details_section h1{
+    text-align: center;
+    word-wrap: normal;
+    font-weight: lighter;
+    text-rendering: geometricPrecision;
+}
+.details_section h4{
+    text-align: center;
+    word-wrap: normal;
+    font-weight: lighter;
+    text-rendering: optimizeLegibility;
+}
+.details_section input{
+    margin:auto;
+    padding: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 3px;
+    width: 100%;
+    height: 42px;
+    text-indent: 10px;
+    font-size: 13px;
+}
+.details_section input:focus{
+    border-style: none;
+    box-shadow: 3px 1px 5px 1px #9ea7aa;
+}
+.details_section p{
+    text-align: center;
+    vertical-align: middle;
+}
+.org_sign_in_buttons {
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    background-color: white;
+}
+.org_sign_in_buttons button{
+    width: 100%;
+    height: 35px;
+    background-color: inherit;
+    border-color: #fdf8fd;
+    border-style: solid;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    box-shadow: 0px 2px 7px 0px grey;
+}
+.org_sign_in_buttons img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    right: 4px;
+}
+.org_sign_in_buttons b{
+    color: #000000ab;
+}
+
+.final_entry_button{
+    width: 95%;
+    margin: auto;
+}
+.final_entry_button button{
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:none;
+    border-radius:3px;
+    color:white;
+    background-color: #9732a9;
+}
+/*working on seperator below*/
+.separator_line {
+    float: left;
+    width: 47%;
+    margin: 20px 0;
+}
+.separator_line hr{
+    height: 1px;
+    background-color: #919191;
+    border-style: none;
+}
+.separator_text{
+    position: relative;
+    bottom: 10px;
+    left: 7px;
+    line-height: 10px;
+    float: left;
+    width: 6%;
+    margin:10px 0;
+}

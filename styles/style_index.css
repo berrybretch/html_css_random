@@ -1,0 +1,78 @@
+body{
+    margin:auto;
+    padding: 0;
+    font-family: 'Raleway', 'sans-serif';
+}
+.call_us{
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: grey;
+    height: 30px;
+    width: 100%;
+    background-color: inherit;
+    vertical-align: middle;
+    background-color: grey;
+    color: black;
+}
+.call_us span {
+    position: relative;
+    right: 20px;
+    top:5px;
+    float:right;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 130px;
+    border-style: none;
+    background-color: white;
+}
+.slideshow_content{
+    width: 100%;
+    height: 500px;
+    border-style: none;
+    background-color:red;
+}
+
+.logo{
+    height: 100%;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 20px;
+    float: left;
+    background-color: white;
+    border-style: solid;
+}
+.organisation{
+    height: 100%;
+    width: 100px;
+    padding:0;
+    margin: 0;
+    float: left;
+    background-color: grey;
+    position: relative;
+    left: 20px;
+}
+li{
+    float: right;
+    text-decoration: none;
+    width: 100px;
+    padding:10px;
+    display: inline;
+    text-align: center;
+    border-style: solid;
+}
+#donate_button_header{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    border-style:none;
+    height: 100%;
+    width: 100%;
+}

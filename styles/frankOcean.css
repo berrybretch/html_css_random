@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'longhaulregular';
+    src: url('../resources/longhaul-webfont.woff2') format('woff2'),
+         url('../resources/longhaul-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'merchant_copyregular';
+    src: url('../resources/merchant_copy-webfont.woff2') format('woff2'),
+         url('../resources/merchant_copy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'merchant_copyregular';
+    font-size: 30px;
+    font-weight: normal;
+}
+span{
+    width: 33.333%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+h2{
+    font-family: 'longhaulregular';
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    font-size: 80px;
+    opacity:0.9;
+
+}
+.names_and_times{
+    margin: auto;
+    border-style: none;
+    width: 400px;
+    height: 704px;
+    background-image: url('../resources/crump.jpg');
+    filter:saturate(10%);
+}
+ul{
+    list-style: none;
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#names{
+    text-align: left;
+    left: 70px;
+}
+#times{
+    text-align: right;
+    right:83px;
+}
+h5{
+    text-align: center;
+    margin: auto;
+    font-weight: normal;
+}

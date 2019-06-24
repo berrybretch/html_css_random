@@ -1,0 +1,42 @@
+body{
+    background-color: red;
+}
+/*BUILDS THE CHESS BOARD UI*/
+table{
+    margin: auto;
+    padding: 0;
+    height: 650px;
+    width: 650px;
+    border-style: none;
+    border-radius: 0px;
+    background-color: white;
+}
+td{
+    margin: 0;
+    padding: 0;
+    height:81.25px;
+    width:81.25px;
+    border:solid 1px black;
+}
+tr:nth-child(odd)  td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+    background-color: black;
+}
+.button{
+    width: 100%;
+    height: 51px;
+    padding: 0;
+    border: none;
+}
+button{
+    display: block;
+    margin:auto;
+    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+}
+img{
+    width: 100%;
+    height:100%;
+}
+/*ABOVE IS SIMPLE CHESS BOARD UI*/
