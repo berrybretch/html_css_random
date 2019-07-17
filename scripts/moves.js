@@ -33,4 +33,4 @@ function rook_like_test(pos_arr){
         path(j, pos_arr[1])
     }
 }
-//random_comment
+//even more random comment
